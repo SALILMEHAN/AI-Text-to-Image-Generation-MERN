@@ -42,7 +42,11 @@ config({
 });
 //! Cors
 const corsOptions = {
-  origin: ["http://localhost:5174", "http://localhost:5173"],
+  origin: [
+    "http://localhost:5174",
+    "http://localhost:5173",
+    "https://marvelous-chimera-78094c.netlify.app/",
+  ],
 };
 
 //!Middlewares
