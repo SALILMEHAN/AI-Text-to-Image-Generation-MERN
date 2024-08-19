@@ -41,7 +41,7 @@ config({
   secure: true,
 });
 //! Cors
-Headers("Access-Control-Allow-origin:*");
+// Headers("Access-Control-Allow-origin:*");
 const corsOptions = {
   origin: "https://marvelous-chimera-78094c.netlify.app/",
   credentials: true,
