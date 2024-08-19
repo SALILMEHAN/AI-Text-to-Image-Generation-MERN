@@ -12,7 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "proxy":"https://marvelous-chimera-78094c.netlify.app/",
   "dependencies": {
     "cloudinary": "^2.4.0",
     "cors": "^2.8.5",
