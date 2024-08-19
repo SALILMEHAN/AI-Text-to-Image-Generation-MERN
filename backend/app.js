@@ -42,7 +42,8 @@ config({
 });
 //! Cors
 const corsOptions = {
-  origin: ["https://marvelous-chimera-78094c.netlify.app/"],
+  origin: "https://marvelous-chimera-78094c.netlify.app/",
+  credentials: true,
 };
 
 //!Middlewares
